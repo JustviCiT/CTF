@@ -34,13 +34,13 @@ binwalk -eIMD 32 decoded
 ```
 There are many files:
 
-![Screenshot from 2019-06-07 15-06-50](D:\Documenti\CTF\N26\27MAY\Screenshot from 2019-06-07 15-06-50.png)
+![Screenshot from 2019-06-07 15-06-50](Screenshot from 2019-06-07 15-06-50.png)
 
-![Screenshot from 2019-06-07 15-07-12](D:\Documenti\CTF\N26\27MAY\Screenshot from 2019-06-07 15-07-12.png)
+![Screenshot from 2019-06-07 15-07-12](Screenshot from 2019-06-07 15-07-12.png)
 
 Using Stegsolve 1.3 on that image, Red, Blue,Green 6 have a hidden QR code
 
-![Screenshot from 2019-06-07 14-59-03](D:\Documenti\CTF\N26\27MAY\Screenshot from 2019-06-07 14-59-03.png)
+![Screenshot from 2019-06-07 14-59-03](Screenshot from 2019-06-07 14-59-03.png)
 
 Inside this qr code there's this:
 
@@ -58,13 +58,9 @@ Going inside the structure of the directory i find the first flag inside the rea
 
 https://s3.eu-central-1.amazonaws.com/b0d6f52f4c5216fb15272/public
 
-The link downloads a file "public" and inside the request there's a payload: QW0xUm5lcldYWGhUaWJaeWRPUFc5VGgK
+The link downloads a file "public" inside the file there's this string:
 
-inside the file there's this string:
-
-Am1RnerWXXhTibZydOPW9Th.
-
-> converting the payload in base64 i get the content of the file, i'm dumb.
+​	Am1RnerWXXhTibZydOPW9Th.
 
 
 
