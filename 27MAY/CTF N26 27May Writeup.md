@@ -34,13 +34,13 @@ binwalk -eIMD 32 decoded
 ```
 There are many files:
 
-![Screenshot from 2019-06-07 15-06-50](Screenshot from 2019-06-07 15-06-50.png)
+![Screenshot from 2019-06-07 15-06-50](Screen2.png)
 
-![Screenshot from 2019-06-07 15-07-12](Screenshot from 2019-06-07 15-07-12.png)
+![Screenshot from 2019-06-07 15-07-12](Screen3.png)
 
 Using Stegsolve 1.3 on that image, Red, Blue,Green 6 have a hidden QR code
 
-![Screenshot from 2019-06-07 14-59-03](Screenshot from 2019-06-07 14-59-03.png)
+![Screenshot from 2019-06-07 14-59-03](Screen1.png)
 
 Inside this qr code there's this:
 
